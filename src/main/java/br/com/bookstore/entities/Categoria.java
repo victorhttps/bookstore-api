@@ -1,7 +1,8 @@
-package br.com.bookstore.domain;
+package br.com.bookstore.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -9,8 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-@Entity
 @NoArgsConstructor
+@Entity
 public class Categoria implements Serializable {
     private static final long serialVersion = 1L;
 

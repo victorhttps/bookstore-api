@@ -1,4 +1,4 @@
-package br.com.bookstore.domain;
+package br.com.bookstore.entities;
 
 import lombok.Data;
 
